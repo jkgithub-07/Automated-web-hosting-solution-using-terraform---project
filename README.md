@@ -23,6 +23,7 @@ This project leverages **Terraform** to provision a scalable, modular, and cloud
 ├── Project_report.pdf      
 ├── Working snapshots of the project.pdf         
 ├── Architecture design.pdf
+└── .gitignore           # Excludes sensitive and unnecessary files
 
 ```
 ## 🧰 Prerequisites
