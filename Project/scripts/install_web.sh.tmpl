@@ -1,0 +1,15 @@
+#!/bin/bash
+
+apt-get update
+apt-get install -y nginx
+
+cat <<'EOF' >/var/www/html/index.html
+${index_html}
+EOF
+
+
+cat <<'EOF' >/var/www/html/style.css
+${style_css}
+EOF
+
+systemctl restart nginx
